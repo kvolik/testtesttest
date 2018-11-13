@@ -1,4 +1,12 @@
-/*Ссылка на шрифты кроме основного 'https://fonts.googleapis.com/css?family=Farsan|Hind+Siliguri|Racing+Sans+One|Six+Caps|Space+Mono:700'*/
+@import url('https://fonts.googleapis.com/css?family=Farsan|Hind+Siliguri|Racing+Sans+One|Six+Caps|Space+Mono:700');
+
+@font-face
+{
+    font-family: Old English;
+
+    src: url('fonts/OldeEnglish.ttf');
+}
+
 body
 {
     width: 1200px;
@@ -27,6 +35,8 @@ body
     width: 200px;
     padding: 25px 10px;
 
+    text-align: center;
+
     border: 1px solid;
 }
 
@@ -35,6 +45,7 @@ body
     float: right;
 
     width: 200px;
+
     text-align: center;
 
     font-size: .8em;
@@ -44,14 +55,15 @@ body
 .header__weather-title
 {
     margin: 0;
+
     font-family: 'Space Mono', monospace;
     font-weight: 700;
-}
 }
 
 .header__weather-text
 {
     margin: 0;
+
     text-align: justify;
 }
 
@@ -60,11 +72,11 @@ body
     overflow: visible;
 
     margin: 0;
+
     text-align: center;
 
     font: 700 6.3em 'Old English', fantasy
 }
-
 
 /*––––––––––––––––––Подшапка газеты–––––––––––––––––*/
 .sub-header
@@ -73,7 +85,6 @@ body
 
     border-top: 1px solid;
     border-bottom: 2px solid;
-    font-size: .6em;
 }
 
 .sub-header__copyright
@@ -81,13 +92,14 @@ body
     display: inline-block;
 
     margin: 0 30px;
+
+    font-size: .6em;
 }
 
 .sub-header__price
 {
     float: right;
 }
-
 
 /*––––––––––––––––––Основной контент––––––––––––––––*/
 .content
@@ -100,6 +112,7 @@ body
 {
     margin-top: 0;
     margin-bottom: 10px;
+
     font-family: 'Six Caps', sans-serif;
     font-size: 3.2em;
 }
@@ -108,6 +121,7 @@ body
 {
     margin-top: 10px !important;
     margin-bottom: 4px !important;
+
     font-style: italic;
 }
 
@@ -130,11 +144,13 @@ body
 
     font-size: .8rem;
 }
+
 .article__author
 {
     display: block;
 
     margin-top: 10px;
+
     text-align: center;
 
     font-size: .8em;
@@ -144,6 +160,7 @@ body
 .article__continue
 {
     display: block;
+
     text-align: center;
 
     font-size: .8em;
@@ -166,14 +183,13 @@ body
 .article__image-caption
 {
     text-decoration: underline;
-
 }
 
 .article__subtitle
 {
     margin: 10px 0;
-    text-align: center;
 
+    text-align: center;
 }
 
 .article__title.article__title_font_farsan
@@ -227,6 +243,7 @@ body
 .main-photo__desc
 {
     margin-bottom: 20px;
+
     font-size: .8em;
 }
 
@@ -307,8 +324,8 @@ body
 
     flex-grow: 2;
 }
-
 /*––––––––––––––––––Второстепенные колонки газеты––––––––––––––––––*/
+
 .left-column
 {
     border-right: 1px solid #000;
@@ -331,3 +348,4 @@ body
 }
 
 /*––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
